@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 500" width="1500" height="500">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#07070d"/>
+      <stop offset="50%" style="stop-color:#0f0f1a"/>
+      <stop offset="100%" style="stop-color:#07070d"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366f1"/>
+      <stop offset="100%" style="stop-color:#8b5cf6"/>
+    </linearGradient>
+    <linearGradient id="line1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:rgba(99,102,241,0)"/>
+      <stop offset="30%" style="stop-color:rgba(99,102,241,0.15)"/>
+      <stop offset="70%" style="stop-color:rgba(139,92,246,0.15)"/>
+      <stop offset="100%" style="stop-color:rgba(139,92,246,0)"/>
+    </linearGradient>
+    <linearGradient id="line2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:rgba(99,102,241,0)"/>
+      <stop offset="40%" style="stop-color:rgba(99,102,241,0.08)"/>
+      <stop offset="60%" style="stop-color:rgba(139,92,246,0.08)"/>
+      <stop offset="100%" style="stop-color:rgba(139,92,246,0)"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="35%" cy="50%" r="30%">
+      <stop offset="0%" style="stop-color:rgba(99,102,241,0.12)"/>
+      <stop offset="100%" style="stop-color:rgba(99,102,241,0)"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="75%" cy="40%" r="25%">
+      <stop offset="0%" style="stop-color:rgba(139,92,246,0.08)"/>
+      <stop offset="100%" style="stop-color:rgba(139,92,246,0)"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1500" height="500" fill="url(#bgGrad)"/>
+
+  <!-- Ambient glows -->
+  <rect width="1500" height="500" fill="url(#glow1)"/>
+  <rect width="1500" height="500" fill="url(#glow2)"/>
+
+  <!-- Subtle grid lines -->
+  <line x1="0" y1="165" x2="1500" y2="165" stroke="url(#line2)" stroke-width="1"/>
+  <line x1="0" y1="335" x2="1500" y2="335" stroke="url(#line2)" stroke-width="1"/>
+  <line x1="0" y1="250" x2="1500" y2="250" stroke="url(#line1)" stroke-width="1"/>
+
+  <!-- Agent connection nodes (left side network) -->
+  <!-- Research node -->
+  <circle cx="180" cy="160" r="6" fill="rgba(34,211,238,0.5)"/>
+  <circle cx="180" cy="160" r="3" fill="rgba(34,211,238,0.8)"/>
+  <text x="180" y="145" text-anchor="middle" font-family="-apple-system, 'SF Pro Display', sans-serif" font-size="10" fill="rgba(34,211,238,0.4)" font-weight="500">RESEARCH</text>
+
+  <!-- Executor node -->
+  <circle cx="120" cy="290" r="6" fill="rgba(251,146,60,0.5)"/>
+  <circle cx="120" cy="290" r="3" fill="rgba(251,146,60,0.8)"/>
+  <text x="120" y="315" text-anchor="middle" font-family="-apple-system, 'SF Pro Display', sans-serif" font-size="10" fill="rgba(251,146,60,0.4)" font-weight="500">EXECUTOR</text>
+
+  <!-- Treasury node -->
+  <circle cx="280" cy="320" r="6" fill="rgba(74,222,128,0.5)"/>
+  <circle cx="280" cy="320" r="3" fill="rgba(74,222,128,0.8)"/>
+  <text x="280" y="345" text-anchor="middle" font-family="-apple-system, 'SF Pro Display', sans-serif" font-size="10" fill="rgba(74,222,128,0.4)" font-weight="500">TREASURY</text>
+
+  <!-- Ops node -->
+  <circle cx="300" cy="180" r="6" fill="rgba(129,140,248,0.5)"/>
+  <circle cx="300" cy="180" r="3" fill="rgba(129,140,248,0.8)"/>
+  <text x="300" y="165" text-anchor="middle" font-family="-apple-system, 'SF Pro Display', sans-serif" font-size="10" fill="rgba(129,140,248,0.4)" font-weight="500">OPS</text>
+
+  <!-- Connection lines between nodes -->
+  <line x1="180" y1="160" x2="120" y2="290" stroke="rgba(99,102,241,0.1)" stroke-width="1"/>
+  <line x1="180" y1="160" x2="300" y2="180" stroke="rgba(99,102,241,0.1)" stroke-width="1"/>
+  <line x1="120" y1="290" x2="280" y2="320" stroke="rgba(99,102,241,0.1)" stroke-width="1"/>
+  <line x1="300" y1="180" x2="280" y2="320" stroke="rgba(99,102,241,0.1)" stroke-width="1"/>
+  <line x1="180" y1="160" x2="280" y2="320" stroke="rgba(99,102,241,0.06)" stroke-width="1"/>
+  <line x1="120" y1="290" x2="300" y2="180" stroke="rgba(99,102,241,0.06)" stroke-width="1"/>
+
+  <!-- Center: Logo icon -->
+  <rect x="540" y="130" width="100" height="100" rx="22" fill="url(#accent)" opacity="0.9"/>
+  <text x="590" y="200" text-anchor="middle" font-family="-apple-system, 'SF Pro Display', sans-serif" font-size="62" font-weight="700" fill="white">F</text>
+  <circle cx="610" cy="150" r="4" fill="rgba(255,255,255,0.6)"/>
+  <circle cx="610" cy="150" r="2" fill="white"/>
+
+  <!-- Center: Title -->
+  <text x="660" y="175" font-family="-apple-system, 'SF Pro Display', sans-serif" font-size="52" font-weight="700" fill="rgba(255,255,255,0.92)" letter-spacing="-1">Firma</text>
+
+  <!-- Subtitle -->
+  <text x="545" y="275" font-family="-apple-system, 'SF Pro Display', sans-serif" font-size="18" fill="rgba(255,255,255,0.3)" font-weight="400">AI Agent Company on X Layer</text>
+
+  <!-- Tagline -->
+  <text x="545" y="310" font-family="-apple-system, 'SF Pro Display', sans-serif" font-size="13" fill="rgba(255,255,255,0.15)" font-weight="400">4 agents that earn, spend, hire, and fire each other — all on-chain</text>
+
+  <!-- Right side: Tech tags -->
+  <rect x="1080" y="170" width="70" height="24" rx="6" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+  <text x="1115" y="186" text-anchor="middle" font-family="-apple-system, 'SF Pro Display', sans-serif" font-size="10" fill="rgba(255,255,255,0.2)" font-weight="500">x402</text>
+
+  <rect x="1160" y="170" width="80" height="24" rx="6" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+  <text x="1200" y="186" text-anchor="middle" font-family="-apple-system, 'SF Pro Display', sans-serif" font-size="10" fill="rgba(255,255,255,0.2)" font-weight="500">ERC-8183</text>
+
+  <rect x="1250" y="170" width="80" height="24" rx="6" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+  <text x="1290" y="186" text-anchor="middle" font-family="-apple-system, 'SF Pro Display', sans-serif" font-size="10" fill="rgba(255,255,255,0.2)" font-weight="500">ERC-8004</text>
+
+  <rect x="1080" y="205" width="90" height="24" rx="6" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+  <text x="1125" y="221" text-anchor="middle" font-family="-apple-system, 'SF Pro Display', sans-serif" font-size="10" fill="rgba(255,255,255,0.2)" font-weight="500">Uniswap V3</text>
+
+  <rect x="1180" y="205" width="95" height="24" rx="6" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+  <text x="1227" y="221" text-anchor="middle" font-family="-apple-system, 'SF Pro Display', sans-serif" font-size="10" fill="rgba(255,255,255,0.2)" font-weight="500">Onchain OS</text>
+
+  <rect x="1285" y="205" width="85" height="24" rx="6" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+  <text x="1327" y="221" text-anchor="middle" font-family="-apple-system, 'SF Pro Display', sans-serif" font-size="10" fill="rgba(255,255,255,0.2)" font-weight="500">LLM Brain</text>
+
+  <rect x="1120" y="240" width="90" height="24" rx="6" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+  <text x="1165" y="256" text-anchor="middle" font-family="-apple-system, 'SF Pro Display', sans-serif" font-size="10" fill="rgba(255,255,255,0.2)" font-weight="500">Uniswap AI</text>
+
+  <rect x="1220" y="240" width="80" height="24" rx="6" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+  <text x="1260" y="256" text-anchor="middle" font-family="-apple-system, 'SF Pro Display', sans-serif" font-size="10" fill="rgba(255,255,255,0.2)" font-weight="500">X Layer</text>
+
+  <!-- Bottom: Chain badge -->
+  <rect x="660" y="360" width="180" height="30" rx="8" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+  <circle cx="685" cy="375" r="4" fill="#4ade80"/>
+  <text x="760" y="380" text-anchor="middle" font-family="-apple-system, 'SF Pro Display', sans-serif" font-size="11" fill="rgba(255,255,255,0.25)" font-weight="500">X Layer Mainnet  |  Chain 196</text>
+</svg>

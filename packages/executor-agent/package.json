@@ -1,0 +1,26 @@
+{
+  "name": "@firma/executor-agent",
+  "description": "Trade execution agent: x402 signal buyer, Uniswap V3 swaps, ACPV2 job client",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx --watch src/index.ts",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@firma/core": "workspace:*",
+    "@okxweb3/x402-core": "^0.1.0",
+    "@okxweb3/x402-evm": "^0.1.0",
+    "@okxweb3/x402-fetch": "^0.1.0",
+    "ethers": "^6.13.0",
+    "viem": "^2.47.12"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.4.0"
+  }
+}

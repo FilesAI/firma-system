@@ -1,0 +1,23 @@
+{
+  "name": "@firma/core",
+  "description": "Shared library: config, wallet, OnchaiosSigner, skills engine, contract interfaces",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.0",
+    "ethers": "^6.13.0",
+    "undici": "^8.0.3",
+    "viem": "^2.47.12"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.4.0"
+  }
+}

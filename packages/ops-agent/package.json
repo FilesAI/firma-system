@@ -1,0 +1,22 @@
+{
+  "name": "@firma/ops-agent",
+  "description": "Operations agent: daily reporting, on-chain hash anchoring, agent monitoring",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx --watch src/index.ts",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@firma/core": "workspace:*",
+    "ethers": "^6.13.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "@types/node": "^20.0.0",
+    "tsx": "^4.0.0"
+  }
+}

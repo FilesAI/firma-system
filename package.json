@@ -1,0 +1,31 @@
+{
+  "name": "firma-system",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Firma — An Onchain AI Company on X Layer",
+  "scripts": {
+    "build": "pnpm -r build",
+    "dev:research": "pnpm --filter research-agent dev",
+    "dev:executor": "pnpm --filter executor-agent dev",
+    "dev:treasury": "pnpm --filter treasury-agent dev",
+    "dev:ops": "pnpm --filter ops-agent dev",
+    "dev:dashboard": "pnpm --filter dashboard dev",
+    "dev:all": "pnpm -r --parallel dev",
+    "test": "vitest run"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@okxweb3/coin-base": "^2.0.6",
+    "@okxweb3/coin-ethereum": "^2.4.10",
+    "@okxweb3/crypto-lib": "^2.0.5",
+    "@openzeppelin/contracts": "5.1.0",
+    "ethers": "^6.16.0",
+    "global-agent": "^4.1.3"
+  },
+  "devDependencies": {
+    "tsx": "^4.21.0",
+    "vitest": "^2.1.9"
+  }
+}

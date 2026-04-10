@@ -1,0 +1,34 @@
+node_modules/
+dist/
+build/
+.env
+.env.local
+docs/internal/
+.DS_Store
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# Claude/AI artifacts
+.claude/
+.agents/
+
+# Skill symlinks (local agent references)
+skills/configurator
+skills/deployer
+skills/liquidity-planner
+skills/pay-with-any-token
+skills/swap-integration
+skills/swap-planner
+skills/v4-hook-generator
+skills/v4-sdk-integration
+skills/v4-security-foundations
+skills/viem-integration
+
+# Netlify
+.netlify/
+
+# Lock files (keep pnpm-lock.yaml)
+packages/*/package-lock.json
