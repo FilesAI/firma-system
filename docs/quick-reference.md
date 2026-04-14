@@ -10,7 +10,7 @@
 | **Chain** | X Layer (Chain ID 196) — OKX zkEVM L2 |
 | **Contract** | [`0x1666...5722`](https://www.okx.com/web3/explorer/xlayer/address/0x16660b4f71cb9e908ad672fdc4da1ac9be7e5722) |
 | **Transactions** | 77+ verified on mainnet |
-| **Repo** | [github.com/FilesAI/firma-system](https://github.com/FilesAI/firma-system) |
+| **Repo** | [github.com/FirmaAI123/firma-system](https://github.com/FirmaAI123/firma-system) |
 | **Dashboard** | Run locally: `pnpm install && pnpm -r build && pnpm --filter dashboard dev` |
 
 ## 5 Key Transactions

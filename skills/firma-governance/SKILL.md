@@ -5,7 +5,7 @@ license: MIT
 metadata:
   author: firma
   version: "1.0.0"
-  homepage: "https://github.com/FilesAI/firma-system"
+  homepage: "https://github.com/FirmaAI123/firma-system"
 ---
 
 # Firma Governance Skill

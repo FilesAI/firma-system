@@ -391,7 +391,7 @@ npm test    # 84 tests across 10 test files
 ### Installation
 
 ```bash
-git clone https://github.com/FilesAI/firma-system.git
+git clone https://github.com/FirmaAI123/firma-system.git
 cd firma-system
 pnpm install
 ```
