@@ -542,7 +542,7 @@ Firma explores what a **prototype AI-managed company** looks like on X Layer:
 
 | Member | Role |
 |---|---|
-| kb | Architecture, smart contracts, agents, dashboard, DevOps |
+| NIK | Architecture, smart contracts, agents, dashboard, DevOps |
 
 ## License
 
