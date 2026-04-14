@@ -493,7 +493,7 @@ The React dashboard reads data from multiple sources with different trust levels
 | Company Timeline | Narrative from contract state | **Reconstructed** |
 | Economy Pulse | `eth_getBalance` per agent wallet | **Live on-chain** |
 | ACPV2 Jobs | `getJob()` on ACPV2 contract | **Live on-chain** |
-| Payment Flow | Hardcoded from verified tx hashes | **Mainnet snapshot** |
+| Payment Flow | USDT `Transfer` events between agent wallets | **Live on-chain** |
 | Be the Treasury | Rule engine + `getAgent()` | **Live + simulation** |
 | Skills, Marketplace | Static data | **Design preview** |
 | Try x402 | Local Research Agent endpoint | **Requires local server** |
